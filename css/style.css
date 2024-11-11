@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: linear-gradient();
+    padding-top: 5rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #BF7582;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+.navbar {
+    font-size: 1.2rem;
+    list-style: none;
+    margin-left: 2rem;
+}
+.navbar a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+}
+.carrossel {
+    margin-top: 10px;
+    padding-inline: 3rem;
+    margin-bottom: 50px;
+}
+
+.img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    margin-bottom: 50px;
+}
+.cards2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    margin-bottom: 50px;
+}
+.img-cards {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
